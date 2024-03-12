@@ -1,1 +1,0 @@
-This is the sample project for this repo and any forks/branches should keep this structure in mind.
