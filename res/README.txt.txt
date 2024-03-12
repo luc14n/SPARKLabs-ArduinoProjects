@@ -1,0 +1,1 @@
+Location of all static resources, i.e. images.

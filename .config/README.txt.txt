@@ -1,0 +1,1 @@
+This is the configs folder and should be personalized to run on your machine and placed in the .gitignore file.

@@ -1,0 +1,1 @@
+This is the location of all documentation for the project. Please remember to keep this organized.
