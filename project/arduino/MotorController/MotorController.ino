@@ -1,12 +1,13 @@
-int motor1pin1 = 9; // OUT3 Positive
-int motor1pin2 = 10; // OUT4 Negative
-int motor1speed = 8; // ENB pin
+int motor1pin1 = 8; // OUT3 Positive
+int motor1pin2 = 11; // OUT4 Negative
+int motor1speed = 9; // ENB pin
 
-int motor2pin1 = 11; // OUT2 Positve
-int motor2pin2 = 12; // OUT1 Negative
-int motor2speed = 13; //ENA pin
+int motor2pin1 = 12; // OUT2 Positve
+int motor2pin2 = 13; // OUT1 Negative
+int motor2speed = 10; //ENA pin
 
 void setup() {
+  Serial.begin(9600);
   // put your setup code here, to run once:
 
   // Initializing Motor Pins
@@ -22,7 +23,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-
   //Controlling speed (0  = off and 255 = max speed):
   analogWrite(motor1speed, 255); 
   analogWrite(motor2speed, 255); 
@@ -34,3 +34,4 @@ void loop() {
   digitalWrite(motor2pin1,  HIGH);
   digitalWrite(motor2pin2, LOW);
 }
+
